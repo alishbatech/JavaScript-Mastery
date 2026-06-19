@@ -1,7 +1,7 @@
-const accountId=1234
-let accountEmail="example@gmail.com"
-var accountPassword="234shiba"
-accountCity="FSD"
+const accountId = 1234
+let accountEmail = "example@gmail.com"
+var accountPassword = "234shiba"
+accountCity = "FSD"
 
 let accountState;
 
@@ -12,5 +12,5 @@ console.log(accountId);
  because issue in block scope and functional scope
  */
 
-console.table([accountId,accountEmail,accountPassword,accountCity
-     ,accountState])
+console.table([accountId, accountEmail, accountPassword, accountCity
+    , accountState])
