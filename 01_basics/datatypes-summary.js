@@ -1,7 +1,7 @@
 //  ******** Javascript is dynamically typed language *********
  
 //  There are mainly 2 types of datatypes :
-//  ====1. Primitive ( call by value = copy version )====(Stack=>change in copy only):
+//  ====1. Primitive ( call by value = copy version )====(Stack=>(immutable)change in copy only):
 //  - string =>  string 
 // - number => number
 // - Boolean => boolean
@@ -10,7 +10,7 @@
 // - symbol => symbol
 // - Bigint  => Bigint
 
-// =====2. Non-Primitive ( reference type )=====(Heap=>change in original):
+// =====2. Non-Primitive ( reference type )=====(Heap=>(mutable)change in original):
 // - Array => object 
 // - Object => object
 // - Function => Function (Object Function)
