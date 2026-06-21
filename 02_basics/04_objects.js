@@ -50,12 +50,18 @@ const obj4={...obj1, ...obj2}
 const course={
     courseName:"webdev",
     price:25000,
-    courseInstructor:"alishba"
+    courseInstructor:"alishba",
+    socials:{
+          Github :"alishbatech",
+          linkedin:"alishba_shahid",
+    }
 }
 // course.courseInstructor;
-const {courseInstructor:instructor}=course;
+const {courseInstructor:instructor ,price ,socials:{Github}}=course;
 // console.log(courseInstructor);
-console.log(instructor);
+console.log(instructor),
+console.log(price),
+console.log(Github)
 
 
 
