@@ -19,7 +19,7 @@ let user=[]
 // }
 
 
-//object.keys(obj) returns an array so we can use length property of array with it
+//object.keys(obj) returns an array so we can use "length" property of array with it
 
 let User={}
 // if (Object.keys(User).length==0){
