@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Amzing page</h2>
+    <ul id="images">
+        <li><img id="nature" src="https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=" alt="nature"></li>
+        <li><img id="sunset" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV4FhCyUMIc-JB3bTxksD_P_cGJN41lA7AdQ&s" alt="sunset"></li>
+        <li><a href="www.google.com" alt="Google" id="Google" >google</a></li>
+      
+
+    </ul>
+</body>
+    <script>
+        // document.getElementById('nature').onclick=function(){
+        //     alert("nature picture")
+        // }
+                        //   *****************************
+ // attachEvent
+ //jQuery - on
+ //type , timestamp, preventDefault()
+ //target , toElement , ,sourceElement , currentTarget
+ //clientX , clientY , screenX , screenY
+ //altkey , ctrlkey , shiftkey , keyCode
+                    //  ************************************
+        // document.getElementById('nature').addEventListener('click', ()=>{
+        //     alert("nature pic")
+        // })
+
+        document.getElementById('nature').addEventListener('click', (e)=>{
+        //    console.log(e)  //e=>event object
+        },false)  // true(capturing) / false(bubbling)
+        
+
+        document.getElementById('images').addEventListener('click', (e)=>{
+        //    console.log("clicked from ul")  //e=>event object
+        },false)  
+document.getElementById('nature').addEventListener('click', (e)=>{
+        //    console.log("nature is clicked")  //e=>event object
+           e.stopPropagation()
+        },false)  
+
+document.getElementById('google').addEventListener('click', (e)=>{
+        //    console.log("google is clicked")  //e=>event object
+        //    e.preventDefault()
+        //    e.stopPropagation()
+        },false)          
+
+        
+
+        </script>
+</html>

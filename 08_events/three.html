@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Alishba </h1>
+    <button class="start">Start</button>
+    <button class="stop">Stop</button>
+</body>
+<script>
+
+    const changeName = function(str) {
+        document.querySelector('h1').innerHTML="Alishy999"
+        console.log("executing", Date.now() , str)
+    }
+
+    let change;
+    document.querySelector('.start')
+    .addEventListener('click' ,()=>{
+        change=setInterval(changeName,2000,"hey")
+    })
+
+    document.querySelector('.stop')
+    .addEventListener('click' ,()=>{
+        clearInterval(change)
+    })
+  
+
+   
+</script>
+
+ 
+</html>

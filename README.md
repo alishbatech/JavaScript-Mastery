@@ -9,4 +9,5 @@ This repo contain my daily practice and conceptual notes for JavaScript.
                   Nullish Coalescing Operator (??), Ternary operator)
 05. Iterators(for loop, while , do while, for of, for in , for each, Filter, Map, reduce)
 06. DOM(All DOM selectors NdeList and HTMLCollection, Creating new Element, Edit and Remove Element)
-07. Projects( Color Changer , BMI Calculator)
+08. Events, Async JS Fundamentals
+ Projects( Color Changer , BMI Calculator, Unlimited BgColors)
