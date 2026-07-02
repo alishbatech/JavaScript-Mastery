@@ -12,3 +12,4 @@ This repo contain my daily practice and conceptual notes for JavaScript.
 07. Projects( Color Changer , BMI Calculator, Unlimited BgColors)
 08. Events, Async JS Fundamentals
 09. Advance_one( API Request, Promises)
+10. Classes_OOPs(constructor function, prototypes, instances(this, new), classes,call)
